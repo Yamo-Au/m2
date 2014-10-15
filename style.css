@@ -1,0 +1,190 @@
+*
+{
+   margin: 0;
+   padding: 0;
+}
+
+.wrapper
+{
+   font-family: 'Droid Sans';
+}
+
+.content
+{
+   width: 700px;
+   margin: auto;
+}
+
+#top
+{
+   background-color: #fff;
+   box-shadow: 1px 1px 5px #aaa;
+   position: fixed;
+   width: 100%;
+   z-index: 2;
+   padding: 15px 10px;
+}
+
+#top .logo
+{
+   display: inline-block;
+}
+
+#top .media-links
+{
+   font-size: 32px;
+   float: right;
+   margin-top: 14px;
+}
+
+#top .media-links .media-link
+{
+   margin-right: 10px;
+}
+
+#mid
+{
+   padding-top: 82px;
+}
+
+#mid .content
+{
+   text-align: center;
+   padding: 50px 0;
+}
+
+.basic-grey 
+{
+   margin-top: 20px;
+   margin-left:auto;
+   margin-right:auto;
+   margin-bottom: 25px;
+   max-width: 500px;
+   background: #fff;
+   padding: 25px 15px 25px 10px;
+   font-size: 12px;
+   color: #888;
+   text-shadow: 1px 1px 1px #FFF;
+   border:1px solid #E4E4E4;
+}
+.basic-grey h1 
+{
+   font-size: 24px;
+   padding: 0px 0px 10px 40px;
+   font-weight: 400;
+   display: block;
+   border-bottom: 1px solid #E4E4E4;
+   margin: -10px -15px 30px -10px;
+   color: #888;
+}
+.basic-grey h1>span 
+{
+   display: block;
+   font-size: 15px;
+   font-weight: 400;
+}
+.basic-grey label 
+{
+   display: block;
+   margin: 0px;
+}
+.basic-grey label>span 
+{
+   float: left;
+   width: 20%;
+   text-align: right;
+   padding-right: 10px;
+   margin-top: 10px;
+   color: #888;
+}
+.basic-grey input[type="text"], .basic-grey input[type="email"], .basic-grey textarea, .basic-grey select 
+{
+   border: 1px solid #DADADA;
+   color: #555;
+   height: 30px;
+   margin-bottom: 16px;
+   margin-right: 6px;
+   margin-top: 2px;
+   outline: 0 none;
+   padding: 3px 3px 3px 5px;
+   width: 70%;
+   font-size: 14px;
+   line-height:17px;
+   box-shadow: inset 0px 1px 2px #ECECEC;
+   -moz-box-shadow: inset 0px 1px 2px #ECECEC;
+   -webkit-box-shadow: inset 0px 1px 2px #ECECEC;
+}
+.basic-grey textarea
+{
+   padding: 5px 3px 3px 5px;
+}
+.basic-grey select 
+{
+   background: #FFF url('../images/down-arrow.png') no-repeat right;
+   background: #FFF url('../images/down-arrow.png') no-repeat right);
+   appearance:none;
+   -webkit-appearance:none; 
+   -moz-appearance: none;
+   text-indent: 0.01px;
+   text-overflow: '';
+   width: 72%;
+   height: 35px;
+   line-height: 25px;
+}
+.basic-grey textarea 
+{
+   height:100px;
+}
+.basic-grey .button-container
+{
+      text-align: center;
+}
+.basic-grey .button 
+{
+   background: #FAB247;
+   text-decoration: none;
+   border: none;
+   padding: 10px 25px 10px 25px;
+   color: #FFF;
+   box-shadow: 1px 1px 5px #B6B6B6;
+   border-radius: 3px;
+   text-shadow: 1px 1px 1px #885914;
+   cursor: pointer;
+   transition: background .3s;
+}
+.basic-grey .button:hover
+{
+   background: #FF9B08;
+}
+.basic-grey table 
+{
+   width: 100%;
+   border-spacing: 15px;
+   padding: 0 50px;
+   margin: auto;
+}
+.basic-grey table td:first-child 
+{
+   font-weight: 500;
+}
+
+.basic-grey .button-container
+{
+   margin: 15px 0;
+}
+
+.basic-grey .button-container p
+{
+   margin-top: 10px;
+}
+
+#bottom
+{
+
+}
+
+#bottom .content
+{
+   text-align: center;
+   font-size: 11px;
+}
