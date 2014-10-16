@@ -1,14 +1,14 @@
 DROP DATABASE IF EXISTS yamo_m2;
 
-GRANT USAGE ON *.* TO 'yamo'@'localhost';
-DROP USER 'yamo'@'localhost';
+GRANT USAGE ON *.* TO 'm2-user'@'yamo.com.au';
+DROP USER 'm2-user'@'yamo.com.au';
 
 CREATE DATABASE yamo_m2;
 
-CREATE USER 'm2-user'@'localhost'
+CREATE USER 'm2-user'@'yamo.com.au'
    IDENTIFIED BY '66<hb2{157C/Ghw';
    
-GRANT ALL ON yamo_m2.* TO 'm2-user'@'localhost';
+GRANT ALL ON yamo_m2.* TO 'm2-user'@'yamo.com.au';
    
 USE yamo_m2;
 

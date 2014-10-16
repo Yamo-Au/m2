@@ -1,0 +1,1 @@
+[15-Oct-2014 15:25:34 Australia/Melbourne] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'm2-user'@'cp88.ezyreg.com' (using password: YES) in /home/wamo/public_html/customers/m2/includes/functions.php on line 5
